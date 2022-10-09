@@ -33,3 +33,44 @@ body {
 	margin: 0;
 }
 
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+/*MENU*/
+
+.navigation img {
+	width: 170px;
+	padding: 30px 0;
+}
+
+.navigation ul {
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+}
+
+.navigation a {
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #000;
+}
+
+.navigation a:hover {
+	border-radius: 20px;
+	color: #fff;
+	background-color: #f195b2;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/*WELCOME*/
+.welc {
+	display: flex;
+}
