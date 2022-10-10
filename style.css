@@ -120,10 +120,27 @@ h3{
 	display: flex;
 }
 
+.welcome p {
+	margin-right: 30px;
+	margin-bottom: 50px;
+}
+
 .welcome a {
 	text-decoration: none;
-	border-radius: 20px;
+	border-radius: 30px;
 	background-color: #f195b2;
+	color: #fff;
+	padding: 15px 40px;
+}
+
+.welcome a:hover,
+.welcome a:focus {
+	background-color: #d2567d;
+	transition: 0.3s;
+}
+
+.welcome img {
+	border-radius: 5px;
 }
 
 /*OFFER*/
